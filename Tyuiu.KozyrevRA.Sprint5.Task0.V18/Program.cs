@@ -37,7 +37,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task0.V18
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            string res = ds.SaveToFileTextData(x);
+            string res = ds.SaveToFileTextData(x); 
             Console.WriteLine("Файл:" + res);
             Console.WriteLine("Создан!");
             Console.ReadKey();

@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint5;
+﻿using System.IO;
+using tyuiu.cources.programming.interfaces.Sprint5;
 namespace Tyuiu.KozyrevRA.Sprint5.Task0.V18.Lib
 {
     public class DataService : ISprint5Task0V18
@@ -9,7 +10,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task0.V18.Lib
 
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
 
-            File.WriteAllText(path, res.ToString()); 
+            File.WriteAllText(path, Convert.ToString(res)); 
 
             return path;
         }
