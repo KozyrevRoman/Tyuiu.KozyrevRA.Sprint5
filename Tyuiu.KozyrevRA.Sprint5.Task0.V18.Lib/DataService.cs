@@ -9,7 +9,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task0.V18.Lib
 
             string path = $@"{Directory.GetCurrentDirectory()}\OutPutFileTask0.txt";
 
-            File.WriteAllText(path, res.ToString());
+            File.WriteAllText(path, res.ToString()); 
 
             return path;
         }

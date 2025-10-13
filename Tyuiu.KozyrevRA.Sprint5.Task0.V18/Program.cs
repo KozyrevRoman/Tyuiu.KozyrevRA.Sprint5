@@ -16,7 +16,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task0.V18
             Console.Title = "Спринт #4 | Выполнил: Козырев Р. А. | СМАРТБ-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема:  Класс File. Запись данных в текстовый файл                       *");
+            Console.WriteLine("* Тема:  Класс File. Запись данных в текстовый файл                       *"); 
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #18                                                             *");
             Console.WriteLine("* Выполнил: Козырев Роман Артёмович | СМАРТБ-25-1                         *");
