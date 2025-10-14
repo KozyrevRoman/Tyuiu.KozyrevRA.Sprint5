@@ -13,7 +13,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task1.V14.Lib
             if (fileInfo.Exists)
                 File.Delete(path);
 
-            for (int x = startValue; x <= stopValue; x++)
+            for (int x = startValue; x <= stopValue; x++) 
             {
                 if (Math.Cos(x) - 2 * x == 0)
                     res[x - startValue] = 0;

@@ -9,7 +9,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task1.V14.Test
         {
             string path = @"C:\Users\GIGABYTE\AppData\Local\Temp\OutPutFileTask1.txt";
             FileInfo fileInfo = new FileInfo(path);
-            bool fileExists = fileInfo.Exists;
+            bool fileExists = fileInfo.Exists;   
             bool wait = true;
             Assert.AreEqual(wait, fileExists);
         }
