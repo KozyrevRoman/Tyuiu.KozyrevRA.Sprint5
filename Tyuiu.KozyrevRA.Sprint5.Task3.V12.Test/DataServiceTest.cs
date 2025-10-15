@@ -7,7 +7,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task3.V12.Test
         [TestMethod]
         public void CheckedExistsFile()
         {
-            string path = @"C:\Users\GIGABYTE\AppData\Local\Temp\OutPutFileTask2.csv";
+            string path = @"C:\Users\GIGABYTE\AppData\Local\Temp\OutPutFileTask3.bin";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
