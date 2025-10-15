@@ -39,7 +39,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task4.V7
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
-            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("***************************************************************************"); 
 
             double res = ds.LoadFromDataFile(path);
             Console.WriteLine(res);
