@@ -23,7 +23,7 @@ namespace Tyuiu.KozyrevRA.Sprint5.Task6.V6
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask6V6.txt в котором есть набор*");
+            Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask6V6.txt в котором есть набор *");
             Console.WriteLine("* значений.Найти количество строчных русских букв в заданной строке.      *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
